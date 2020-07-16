@@ -12,8 +12,6 @@ def batch_badge_creator(array)
   return new_array
 end
 
-# batch_badge_creator(people)
-
 def assign_rooms(array)
   new_array = []
   counter = 1
@@ -23,8 +21,6 @@ def assign_rooms(array)
   end
   return new_array
 end
-
-# assign_rooms(people)
 
 def printer(array)
   batch_badge_creator(array).each do |id|
