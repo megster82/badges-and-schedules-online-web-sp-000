@@ -9,6 +9,7 @@ def assign_rooms(names)
 each_with_index
 
 
-def badge_maker
+def badge_maker(name)
+  
 
 printer
